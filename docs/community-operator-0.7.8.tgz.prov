@@ -1,0 +1,41 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+appVersion: 0.7.8
+dependencies:
+- - condition: community-operator-crds.enabled
+  name: community-operator-crds
+  repository: https://mongodb.github.io/helm-charts
+  version: 0.7.8
+description: MongoDB Kubernetes Community Operator
+home: https://github.com/mongodb/mongodb-kubernetes-operator
+icon: https://mongodb-images-new.s3.eu-west-1.amazonaws.com/leaf-green-dark.png
+keywords:
+- - mongodb
+- - database
+- - nosql
+kubeVersion: '>=1.16-0'
+maintainers:
+- - email: support@mongodb.com
+  name: MongoDB
+name: community-operator
+type: application
+version: 0.7.8
+
+...
+files:
+  community-operator-0.7.8.tgz: sha256:4a65f05b9649b34256bc8d827459e19e29e69b43a0e622ede88045333c5b0ffe
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJkDpiaCRCROcFyJ8nkngAAz7cMAHV6yUUat9m/w3n6pQjoMEqR
+yh8fpb3BmQtsv9fya0hlBp7PxidfezuauFRwAQLR14W0e/+gph50kPEYa3Pn1KcH
+JoQUcZll3w68MkcR1/TUqQaGzTMyh0dwBzKmuSqonFsNyhBXxRI6UdYNvSU37/nc
+GmYb5zlgqZ/gNc80nfoJ+LVhmKnsrcGsqNxCombBE4qTlZV2ruPePUY1L24T/2ns
+gAS52MzKmF3j6CGnUOxQOuR0UewjMOeLeNmfyYYOixgBdJqiUZBf8Rjhay9ZbAZC
+Dkb8/sICni778Gv3m3pJtg65VF8B39n3a6wJF3bd7RN8IXTKGE7kdD+JLMUjgNJw
+e1mv7Cf1+vcZbDFUAqt0YRTtehmBo9/0TB8AZXHu+xLvXy8craAExmiDWPKHJ+7B
+75nc5TJVmosB7i7SKz0Qx3PrwlntXcTpYJs49Kjd/PAx8HQlJxgnfEZe4JpioiLi
+JDuhhpJn0acQxdVji7/do7GO1mmlCf4w/jTrr4ynmg==
+=+y7A
+-----END PGP SIGNATURE-----
