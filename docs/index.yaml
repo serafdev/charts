@@ -3,14 +3,14 @@ entries:
   community-operator:
   - apiVersion: v2
     appVersion: 0.7.8
-    created: "2023-03-12T23:10:10.374694032-04:00"
+    created: "2023-03-12T23:38:50.25640269-04:00"
     dependencies:
     - condition: community-operator-crds.enabled
       name: community-operator-crds
       repository: https://mongodb.github.io/helm-charts
       version: 0.7.8
     description: MongoDB Kubernetes Community Operator
-    digest: 1270e04eedfbf7ceaf2b8783ca24cd2da702370018985ee804b21ddebe795381
+    digest: 4a65f05b9649b34256bc8d827459e19e29e69b43a0e622ede88045333c5b0ffe
     home: https://github.com/mongodb/mongodb-kubernetes-operator
     icon: https://mongodb-images-new.s3.eu-west-1.amazonaws.com/leaf-green-dark.png
     keywords:
@@ -29,7 +29,7 @@ entries:
   frozone:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-12T23:10:10.375088689-04:00"
+    created: "2023-03-12T23:38:50.257081335-04:00"
     description: A Helm chart for Kubernetes
     digest: 4c9ce719348eb229819969d7a8c8b1eac99f6cb51c7ba9571181102c0aa9f0f6
     name: frozone
@@ -37,4 +37,4 @@ entries:
     urls:
     - frozone-0.1.0.tgz
     version: 0.1.0
-generated: "2023-03-12T23:10:10.373712614-04:00"
+generated: "2023-03-12T23:38:50.249832387-04:00"
